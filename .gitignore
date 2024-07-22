@@ -1,0 +1,28 @@
+
+# Folders to ignore 
+/admin 
+_build/ 
+data_processing/data/ 
+data_processing/output/ 
+temp/ 
+
+# Ignore file types that may contain data or models 
+*.p 
+*.pkl 
+*.csv 
+*.xlsx 
+*.txt 
+*.zip 
+*.json
+
+# Ignore image files 
+*.jpg 
+*.jpeg 
+*.png 
+*.tiff 
+
+# Ignore all checkpoints folders 
+**/.ipynb_checkpoints/ 
+
+# Ignore cache files (stored in this folder) 
+**/__pycache__/
